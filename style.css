@@ -1,3 +1,4 @@
+/* shared style */
 body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
@@ -8,13 +9,11 @@ body {
     font-style: normal;
 
     font-family: "Lato", sans-serif;
-    font-weight: 900;
+    font-weight: 500;
     font-style: normal;
-
-
-    background-color: rgb(255, 254, 253);
 }
 
+/* nav related style */
 nav>ul {
     display: flex;
     align-items: center;
@@ -39,6 +38,15 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
+}
+
+/* header section styles */
+.header {
+    background-color: #fff8f3;
+    background-image: url('./images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .title {
@@ -61,4 +69,83 @@ nav {
     font-weight: 600;
     font-size: 18px;
     padding: 15px 35px;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.banner {
+    padding: 40px 40px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner .img {
+    width: 500px;
+
+}
+
+.banner-wlc {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
+}
+
+.banner-heading {
+    font-size: 60px;
+    font-weight: 700PX;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+}
+
+.banner-paragraph {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* main section styles */
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+/* About Section Style */
+.About {
+    background: rgb(248, 189, 212);
+    padding: 120px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.about-info-contener {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about-info {
+    text-align: center;
+}
+
+/* what i do section */
+#what-i-do {
+    padding: 30px 150px;
 }
