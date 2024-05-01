@@ -127,6 +127,10 @@ main {
     margin: 0px auto;
 }
 
+main section {
+    margin-top: 130px;
+}
+
 /* About Section Style */
 .About {
     background: rgb(248, 189, 212);
@@ -145,7 +149,93 @@ main {
     text-align: center;
 }
 
+/* what i do related styles */
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill-description {
+    color: #888787;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
 /* what i do section */
 #what-i-do {
     padding: 30px 150px;
+}
+
+/* resume section style */
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+
+.resume-item-institute {
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.resume-item-description,
+.resume-item-institute {
+    color: #757575;
+}
+
+.resume-container hr {
+    margin: 30px;
+}
+
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* footer styles section */
+footer {
+    display: flex;
+    gap: 100px;
+    background: #fff8f3;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.social-links a {
+    margin: 25px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0px;
+    width: 100%;
 }
