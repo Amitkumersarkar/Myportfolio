@@ -1,3 +1,64 @@
 body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+
+
     background-color: rgb(255, 254, 253);
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+nav li:hover {
+    background-color: rgb(255, 0, 212);
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+    margin: 20px 25px;
+
+}
+
+.main-color {
+    color: #fd0aa0;
+}
+
+.main-btn {
+    border-radius: 10px;
+    background: #FD6E0A;
+    color: #fff;
+    border: 0px;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 15px 35px;
 }
