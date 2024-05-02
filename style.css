@@ -44,9 +44,9 @@ nav {
 /* header section styles */
 .header {
     background-color: #fff8f3;
-    background-image: url('./images/header_bg.png');
+    background-image: url('./images/header_bg.png'), url('./images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .title {
@@ -94,11 +94,21 @@ nav {
 }
 
 .banner-content {
-    max-width: 500px;
+    max-width: 600px;
+}
+
+.cv-btn,
+.contact-btn {
+    border: 0px;
+    border-radius: 5px;
+    background: #fa66c9;
+    width: 200px;
+    height: 60px;
+    margin: 10px;
 }
 
 .banner .img {
-    width: 500px;
+    width: 600px;
 
 }
 
