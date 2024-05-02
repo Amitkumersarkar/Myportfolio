@@ -102,9 +102,11 @@ nav {
     border: 0px;
     border-radius: 5px;
     background: #fa66c9;
+    color: #FFF;
     width: 200px;
     height: 60px;
     margin: 10px;
+    font-size: 20px;
 }
 
 .banner .img {
