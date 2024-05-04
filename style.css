@@ -52,7 +52,7 @@ nav {
 }
 
 .main-color {
-    color: #fd0aa0;
+    color: #ee10d0;
 }
 
 .main-btn {
@@ -62,7 +62,12 @@ nav {
     border: 0px;
     font-weight: 600;
     font-size: 18px;
-    padding: 15px 35px;
+    padding: 15px 30px;
+}
+
+.main-btn:hover {
+    background-color: #6668fa;
+    transition: 0.5s ease;
 }
 
 .banner {
@@ -86,6 +91,16 @@ nav {
     height: 60px;
     margin: 10px;
     font-size: 20px;
+}
+
+.cv-btn:hover {
+    background-color: #6668fa;
+    transition: 0.5s ease;
+}
+
+.contact-btn:hover {
+    background-color: #6668fa;
+    transition: 0.5s ease;
 }
 
 .banner .img {
